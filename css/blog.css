@@ -43,6 +43,8 @@ a {
     height: 600px;
     text-align: center;
     overflow: hidden;
+	background-image: url('../images/nightsky.jpg');
+	background-size: cover;
 }
 .intro {
     width: 100%;
@@ -61,21 +63,22 @@ a {
     font-size: 50px;
     text-decoration: none;
     margin-bottom: 0;
+	color: #ffffff;
 }
 .subtitle {
     font-size: 20px;
     margin-top: 7px;
     text-decoration: none;
-    color: #444444;
+    color: #ffffff;
 }
 .canvas-container {
-	position: absolute;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 #intro-canvas {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 @media (max-width: 680px) {
     .navbar {
