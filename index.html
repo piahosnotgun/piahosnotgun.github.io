@@ -9,12 +9,12 @@
         href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
         rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" href="css/blog.css" />
-	<script src='js/intro.js'></script>
-	<script src='js/fallingStar.js'></script>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+    <script src="js/intro.js"></script>
+    <script src="js/fallingStar.js"></script>
 </head>
 <body>
-	
     <header class="navbar">
         <p class="logo">
             Ruined
@@ -27,86 +27,111 @@
             </ul>
         </nav>
     </header>
-	
+
     <div class="intro-container">
         <div class="intro">
-			<div class="canvas-container">
-				<canvas id='intro-canvas'></canvas>
-			</div>
-            <div class="title-container" id='tcontainer'>
-                <p class="title" id='title-text'>
+            <div class="canvas-container">
+                <canvas id="intro-canvas"></canvas>
+            </div>
+            <div class="title-container" id="tcontainer">
+                <p class="title" id="title-text">
                     Ruined Page
                 </p>
-                <p class="subtitle" id='subtitle-text'>
+                <p class="subtitle" id="subtitle-text">
                     망한 페이지
                 </p>
             </div>
         </div>
     </div>
-	
-	<div class='info-container'>
-		<p class='info-title' id='profile'>
-			Profile
-		</p>
-		<hr class='divider middle'>
-		<div class='card-container'>
-			<div class='card'>
-				<div class='card-image' id='pnu'></div>
-				<p class='card-title'>
-					PNU 19'
-				</p>
-				<hr class='divider short'>
-				<p class='card-paragraph'>
-					하고싶은거랑 전혀 관련없는 학과 재학 중
-				</p>
-			</div>
-			<div class='card'>
-				<div class='card-image' id='piano'></div>
-				<p class='card-title'>
-					샷건 장인
-				</p>
-				<hr class='divider short'>
-				<p class='card-paragraph'>
-					- Haeundae HS PRS 8' Keyboard
-					<br>
-					- PNU WoodenKid 45' Keyboard
-					<br>
-					- 전공을 못한 망령
-				</p>
-			</div>
-			<div class='card'>
-				<div class='card-image' id='youtube'></div>
-				<p class='card-title'>
-					망한 유튜브
-				</p>
-				<hr class='divider short'>
-				<p classs='card-paragraph'>
-					구독자 70(70만 아님)따리 망한 채널
-				</p>
-			</div>
-			<div class='card'>
-				<div class='card-image' id='coding'></div>
-				<p class='card-title'>
-					코딩
-				</p>
-				<hr class='divider short'>
-				<p classs='card-paragraph'>
-					- 구글이 없으면 코딩을 못하는 사람
-					<br>
-					- 다해놓고 까먹어서 갈아엎은 경험 약 3회
-				</p>
-			</div>
-		</div>
-	</div>
-	
-	<div id='blue-divider'>
-		<p class='info-title' id='projects'>
-			Projects
-		</p>
-		<hr class='divider middle reverse'>
-	</div>
-	<div class='projects'>
-		
-	</div>
-	
+
+    <div class="info-container">
+        <p class="info-title" id="profile">
+            Profile
+        </p>
+        <hr class="divider middle" />
+        <div class="card-container">
+            <div class="card">
+                <div class="card-image" id="pnu"></div>
+                <p class="card-title">
+                    PNU 19'
+                </p>
+                <hr class="divider short" />
+                <p class="card-paragraph">
+                    하고싶은거랑 전혀 관련없는 학과 재학 중
+                </p>
+            </div>
+            <div class="card">
+                <div class="card-image" id="piano"></div>
+                <p class="card-title">
+                    샷건 장인
+                </p>
+                <hr class="divider short" />
+                <p class="card-paragraph">
+                    - Haeundae HS PRS 8' Keyboard
+                    <br />
+                    - PNU WoodenKid 45' Keyboard
+                    <br />
+                    - 전공을 못한 망령
+                </p>
+            </div>
+            <div class="card">
+                <div class="card-image" id="youtube"></div>
+                <p class="card-title">
+                    망한 유튜브
+                </p>
+                <hr class="divider short" />
+                <p classs="card-paragraph">
+                    구독자 70(70만 아님)따리 망한 채널
+                </p>
+            </div>
+            <div class="card">
+                <div class="card-image" id="coding"></div>
+                <p class="card-title">
+                    코딩
+                </p>
+                <hr class="divider short" />
+                <p classs="card-paragraph">
+                    - 구글이 없으면 코딩을 못하는 사람
+                    <br />
+                    - 다해놓고 까먹어서 갈아엎은 경험 약 3회
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="divider-container">
+        <div id="rotated-divider">
+            <p class="info-title" id="projects">
+                Projects
+            </p>
+            <hr class="divider middle reverse" id="project-hr" />
+            <p class="info-paragraph reverse">
+                지난 세월동안 뭐하고 살았는지 알 수 있습니다.
+            </p>
+        </div>
+        <div id="divider-background"></div>
+    </div>
+    <div class="projects">
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-thumbnail" id="konsolecakao"></div>
+                <div class="project-content">
+                    <p class="project-title">
+                        KonsoleCakao
+                    </p>
+					<hr>
+					<p class='project-paragraph'>
+						콘솔에서 사용하는 카카오톡
+					</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-thumbnail"></div>
+                <div class="project-content">
+                    <p class="project-title">
+                        ExpressTalk
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
