@@ -14,6 +14,14 @@
     border: none;
     margin-top: 20px;
 }
+.divider-gray {
+	background-color: #aeaeae;
+}
+.stretch {
+    width: 100%;
+    margin-top: 3px;
+    height: 1px;
+}
 .middle {
     height: 3px;
     width: 150px;
@@ -121,6 +129,7 @@ p.reverse {
 .project-container {
     display: block;
     padding-top: 50px;
+	padding-bottom: 100px;
 }
 .project-card {
     width: 80%;
@@ -128,49 +137,59 @@ p.reverse {
     background-color: white;
     margin: 0 auto;
     overflow: hidden;
-	-webkit-box-shadow: 6px 9px 34px -2px #000000; 
-	box-shadow: 6px 9px 34px -2px #000000;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	display: flex;
-	align-items: stretch;
+    -webkit-box-shadow: 6px 9px 34px -2px #000000;
+    box-shadow: 6px 9px 34px -2px #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: stretch;
 }
 .project-thumbnail {
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	background-size: cover;
-	height: 100%;
-	width: 150px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-size: cover;
+    height: 100%;
+    width: 150px;
 }
 .project-content {
-	height: 100%;
-	flex-grow: 1;
+    height: 100%;
+    flex-grow: 1;
 }
 .project-title {
     color: black;
     font-size: 25px;
     margin-top: 15px;
     margin-left: 10px;
-	margin-bottom: 3px;
+    margin-bottom: 3px;
 }
 .project-paragraph {
-	color: black;
-	font-size: 15px;
-	margin-left: 10px;
-	margin-top: 3px;
-	line-height: 1.5;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 3px;
+    line-height: 1.5;
 }
 #konsolecakao {
-	background-image: url('../images/projects/konsolecakao.svg');
+    background-image: url('../images/projects/konsolecakao.svg');
+}
+
+#expresstalk {
+    background-image: url('../images/projects/expresstalk.svg');
+}
+#piahosnotgun {
+	background-image: url('../images/projects/piahosnotgun.svg');
 }
 
 @media (max-width: 1300px) {
     #projects {
         margin-right: 100px;
     }
-    .reverse {
+    hr.reverse {
         margin-right: 100px;
     }
+	p.reverse {
+		margin-right: 100px;
+	}
     .card-container {
         height: 700px;
         grid-template-rows: 350px 350px;
@@ -178,8 +197,18 @@ p.reverse {
         grid-row-gap: 20px;
     }
 }
-
 @media (max-width: 900px) {
+    .project-card {
+        width: 60%;
+        height: 300px;
+        background-color: white;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+	.project-thumbnail {
+		margin: 0 auto;
+	}
     #projects {
         margin-top: 250px;
         margin-right: 30px;

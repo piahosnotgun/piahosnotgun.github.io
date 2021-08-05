@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-terminal"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path stroke="#000" id="svg_2" d="m112.49997,150.07563l0,0c0,-20.75246 19.23777,-37.57565 42.96875,-37.57565l19.53126,0l0,0l93.75002,0l175.78124,0c11.39605,0 22.32531,3.95884 30.38353,11.00565c8.05817,7.04681 12.58524,16.60432 12.58524,26.57l0,93.93913l0,0l0,56.36346l0,0c0,20.75247 -19.23775,37.57565 -42.96876,37.57565l-175.78124,0l-122.47284,95.54614l28.72281,-95.54614l-19.53126,0c-23.73098,0 -42.96875,-16.82318 -42.96875,-37.57565l0,0l0,-56.36346l0,0l-0.00001,-93.93913z" stroke-width="0" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="start" font-family="monospace" font-size="50" id="svg_3" y="526" x="150" stroke-width="0" stroke="#000" fill="#000000">KonsoleCakao</text>
+  <path stroke="#000" id="svg_4" d="m248.40316,228.67499l-36.17554,-53.50002l23.82445,0l36.17554,53.50002l-36.17554,53.49998l-23.82445,0l36.17554,-53.49998z" stroke-width="0" fill="#00ff00"/>
+  <rect stroke="#000" id="svg_5" height="17" width="95" y="266" x="282" stroke-width="0" fill="#00ff00"/>
+ </g>
+</svg>

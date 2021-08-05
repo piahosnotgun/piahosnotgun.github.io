@@ -1,0 +1,48 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <!-- 
+     Copyright (c)  2005 Lauri Kaila.
+     Permission is granted to copy, distribute and/or modify this document
+     under the terms of the GNU Free Documentation License, Version 1.2
+     or any later version published by the Free Software Foundation;
+     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+     A copy of the license is included in the section entitled "GNU
+     Free Documentation License".
+     
+     
+     
+     Intented to create a keyboard where key widths are
+     accurately in position. 
+     
+     See http://www.mathpages.com/home/kmath043.htm
+     for the math.
+     
+     This keyboard has following properties (x=octave width).
+     1. All white keys have equal width in front (W=x/7).
+     2. All black keys have equal width (B=x/12).
+     3. The narrow part of white keys C, D and E is W - B*2/3
+     4. The narrow part of white keys F, G, A, and B is W - B*3/4
+     
+-->
+  <!-- White keys  -->
+  <!-- Black keys (overlap with the white keys) -->
+  <text font-style="normal" font-weight="normal" transform="matrix(1.94743 0 0 2.2095 -105.534 -583.91)" stroke="black" xml:space="preserve" text-anchor="start" font-family="monospace" font-size="30" id="svg_17" y="509.82609" x="120" stroke-width="0" fill="#000000">Piahosnotgun</text>
+  <g id="svg_19">
+   <rect stroke="black" id="svg_2" x="137.28201" y="108" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_3" x="181.9963" y="159" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_4" x="236.71058" y="108" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_5" x="253.42487" y="208" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_6" x="326.13916" y="159" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_7" x="372.85344" y="190" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_8" x="451.56773" y="163" width="49.71429" height="260.99999" fill="white"/>
+   <rect stroke="black" id="svg_9" x="161.26337" y="84" width="28.09938" height="174" fill="black"/>
+   <rect stroke="black" id="svg_10" x="214.34411" y="80" width="28.09938" height="174" fill="black"/>
+   <rect stroke="black" id="svg_11" x="320.06462" y="27" width="28.09938" height="174" fill="black"/>
+   <rect stroke="black" id="svg_12" x="371.26338" y="108" width="28.09938" height="174" fill="black"/>
+   <rect stroke="black" id="svg_13" x="428.54288" y="108" width="28.09938" height="174" fill="black"/>
+   <path transform="rotate(28.4738 222.511 251.552)" stroke="black" stroke-width="0" id="svg_15" d="m132.99984,382.25288c6.31016,3.48307 14.92158,11.61537 21.59015,8.64002c4.37416,-1.92583 6.93374,-12.83034 9.6514,-18.5703c20.45706,-43.14799 42.69013,-92.224 58.87303,-134.20965c0,-1.87317 0.92933,-3.32138 -0.45152,-5.86792c9.05243,-15.77568 15.1974,-33.10852 25.08773,-50.66332c3.13233,-5.57832 6.319,-13.31946 10.7125,-15.55009l8.11431,-3.62599c10.31543,-2.83994 17.85003,-2.74216 25.04212,4.66425c3.64685,3.7765 5.32462,10.00554 8.85216,13.75575c2.38552,2.56153 11.47479,8.86198 14.85476,7.8878c2.62627,-0.75979 4.79061,-3.59218 6.63164,-7.18074l6.41033,-12.67991c1.79701,-3.60715 2.81948,-7.07909 1.98155,-9.85129c-1.0786,-3.56959 -10.97962,-8.28279 -14.29453,-9.02005c-4.8643,-1.11711 -10.62984,0.7975 -15.58375,-0.4062c-9.73577,-2.39607 -13.93618,-9.09149 -17.34414,-19.91705c-24.01971,-15.11739 -56.35737,-24.94614 -94.00926,-12.2662c-10.21354,3.44176 -20.00385,6.05223 -26.71801,13.04488c-1.34565,4.06231 1.31584,4.87112 4.1072,4.82213c-2.18357,2.12907 -5.71102,3.36282 -3.67499,8.36181c22.97962,-11.29949 67.60389,-15.20388 70.63422,7.92548c0.6623,5.14946 -3.63815,12.23982 -6.28207,18.09643c-8.33562,18.47639 -18.52108,33.46589 -25.90806,50.20073c-2.74577,0.16552 -3.37117,1.77163 -4.83628,2.82861c-23.98278,37.46813 -50.20535,84.21959 -72.75987,126.15636c-3.004,5.57823 -10.11347,13.82345 -9.22986,18.79224c1.32636,7.60199 12.24082,11.14161 18.54924,14.63221l0.00002,0z" fill="#ff7f00"/>
+  </g>
+ </g>
+
+</svg>
